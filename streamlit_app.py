@@ -22,7 +22,7 @@ import statsmodels.api as sm
 
 
 st.set_page_config(
-    page_title="Movies, movies, movies!", page_icon=":clapper:", layout="wide"
+    page_title="🎬 설아의 영화 분석", page_icon=":clapper:", layout="wide"
 )
 
 df = data.movies(engine="polars")
